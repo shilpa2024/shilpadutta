@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["frontend development", "backend development", "full stack web development", "web development"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -141,7 +141,7 @@ function showProjects(projects) {
         reset: true
     });
 
-    /* SCROLL PROJECTS */
+    /* SCROLL */
     srtop.reveal('.work .box', { interval: 200 });
 
 }
